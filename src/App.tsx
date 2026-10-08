@@ -403,7 +403,7 @@ export default function App() {
         {activeTab === 'resultados' && (
           <div className="max-w-3xl mx-auto bg-gray-800 p-8 rounded-xl border border-gray-700 shadow-xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-emerald-400">
-              Ranking Oficial - {activeRound.name}
+              Ranking - {activeRound.name}
             </h2>
             <div className="space-y-4">
               {rankedCompetitors.length === 0 && (
